@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Cappuccino",
-        "price": 500,
+        "price": 310,
         "description": "A classic Italian coffee drink made with espresso, steamed milk, and milk foam. Standard coffee drink in Italy.",
         "image": "Images/Coffee_eevee.png",
         "category": "hot-beverages"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "Latte",
-        "price": 400,
+        "price": 350,
         "description": "A creamy coffee drink made with espresso and steamed milk, often topped with a small amount of milk foam.",
         "image": "Images/Latte.avif",
         "category": "hot-beverages"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "Americano",
-        "price": 300,
+        "price": 280,
         "description": "A simple coffee drink made by diluting espresso with hot water, resulting in a similar strength to brewed coffee.",
         "image": "Images/Americano.avif",
         "category": "hot-beverages"
