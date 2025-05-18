@@ -1,0 +1,20 @@
+[
+    {
+        "orderId": "",
+        "customer": {
+            "name": "",
+            "email": "",
+            "address": ""
+        },
+        "items": [
+            {
+                "productId": "",
+                "productName": "",
+                "quantity": 0,
+                "price": 0
+            }
+        ],
+        "totalAmount": 0,
+        "orderDate": ""
+    }
+]
