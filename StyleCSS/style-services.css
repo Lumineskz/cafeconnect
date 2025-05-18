@@ -183,7 +183,7 @@ header .container-navbar {
     }
 
     footer {
-      position:absolute;
+      position: absolute;
       bottom: 0px;
       width: 100%;
       background-color: #363636;
@@ -193,3 +193,43 @@ header .container-navbar {
       margin-top:4rem ;
 
     }
+
+@media (max-width: 768px){
+      footer {
+      position: relative;
+      bottom: 0px;
+      width: 100%;
+      background-color: #363636;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top:4rem ;
+
+    }
+        .desktop-nav {
+        display: none;
+    }
+    .logo{
+        padding-left: 10px;
+    }
+    .logo img{
+        height: 40px;
+        width: 40px;
+    }
+
+    .hamburger-menu {
+        font-size: 1em;
+        display: block; /* Make it visible on mobile */
+        color: white;
+        font-weight: bold;
+        padding: 5px 10px;
+        background-color: #493628;
+        border: 3px solid #674e3c;
+        border-radius: 5px;
+        position: absolute; /* Position it relative to the header */
+        top: 10px; /* Adjust vertical position as needed */
+        right: 20px; /* Adjust horizontal position as needed */
+        z-index: 1000; /* Ensure it appears above other elements */
+    }
+
+}
