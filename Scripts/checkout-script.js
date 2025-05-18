@@ -51,8 +51,8 @@ function displayOrderSummary(cartData, products) {
     
     // Says "your cart is empty if there is nothing in your current cart"
     if (cartData.length === 0) {
-        orderSummaryDiv.innerHTML = '<p>Your cart is empty.</p>';
-        orderTotalDiv.innerHTML = '';
+        orderSummaryDiv.innerHTML = '<p class="empty">Your cart is empty.</p>';
+        orderTotalDiv.innerHTML = '<p class="empty">Error</p>';
         return;
     }
 
@@ -87,6 +87,7 @@ function displayOrderSummary(cartData, products) {
 }
 
 // Validation of the form, checks if form is filled and prevents form submission by default
+
 function checkOutConfirmForm(event) {
     event.preventDefault();
     // Basic validation (can be expanded)
@@ -99,7 +100,6 @@ function checkOutConfirmForm(event) {
         alert("Please fill in all required fields.");
         return false;
     }
-    alert("Checkout proceeding (simulation)!"); // Basic feedback
     
     return false;
 }
