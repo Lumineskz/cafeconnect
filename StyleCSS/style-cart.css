@@ -240,6 +240,13 @@ header .container {
     font-weight: 250;
     color: green;
 }
+
+/* Empty cart */
+.empty{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     .desktop-nav {
