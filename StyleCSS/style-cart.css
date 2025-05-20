@@ -282,4 +282,13 @@ header .container {
     "checkout-form ";
     gap: 20px
 }
+.order-summary{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,0.1);
+}
+.order-summary{
+    font-size: 0.85em;
+}
 }
