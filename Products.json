@@ -30,6 +30,153 @@
         "description": "A simple coffee drink made by diluting espresso with hot water, resulting in a similar strength to brewed coffee.",
         "image": "Images/Americano.avif",
         "category": "hot-beverages"
+    },
+    {
+        "id": 5,
+        "name": "Chocolate chip cookies",
+        "price": 280,
+        "description": "A cookie that featureing chips of chocolate as its main ingredient.",
+        "image": "Images/chocolate_chip.webp",
+        "category": "cookies"
+    },
+    {
+        "id": 6,
+        "name": "Ginger Snaps",
+        "price": 280,
+        "description": "Also known as ginger nuts or ginger biscuits, these spicy treats are popular all around the world.",
+        "image": "Images/ginger.webp",
+        "category": "cookies"
+    },
+    {
+        "id": 7,
+        "name": "Shortbread Cookies",
+        "price": 400,
+        "description": "Shortbread cookies have a very high ratio of butter or shortening to flour, hence the name short.",
+        "image": "Images/chort.webp",
+        "category": "cookies"
+    },
+    {
+        "id": 8,
+        "name": "Peanut Butter Cookies",
+        "price": 350,
+        "description": "As the name suggests, a favorite for all the peanut butter lovers.",
+        "image": "Images/peanut.webp",
+        "category": "cookies"
+    },
+    {
+        "id": 9,
+        "name": "Coca Cola",
+        "price": 50,
+        "description": "Known as the most well-known soft drink brand in the U.S., recognized by 95% of internet respondents. ",
+        "image": "Images/coca.avif",
+        "category": "cold-beverages"
+    },
+       {
+        "id": 10,
+        "name": "Diet Coke",
+        "price": 55,
+        "description": "A popular diet version of Coca-Cola, with less sugar and significant market share. Best for people on diet ",
+        "image": "Images/diet.avif",
+        "category": "cold-beverages"
+    },
+    {
+        "id": 11,
+        "name": "Sprite",
+        "price": 50,
+        "description": "  A lemon-lime flavored soft drink, popular for its refreshing taste.  ",
+        "image": "Images/sprite.avif",
+        "category": "cold-beverages"
+    },
+       {
+        "id": 12,
+        "name": "Fanta",
+        "price": 50,
+        "description": " A brand of fruit-flavored soft drinks, known for its colorful packaging and diverse flavors  ",
+        "image": "Images/fanta.avif",
+        "category": "cold-beverages"
+    },
+    {
+        "id": 13,
+        "name": " Croissant",
+        "price": 100,
+        "description": " Known for their crescent shape and delicate, feature flaky layers made from dough. ",
+        "image": "Images/croissant.jpg",
+        "category": "pastries"
+    },
+      {
+        "id": 14,
+        "name": "Danish Pastry",
+        "price": 200,
+        "description": " Tender, flaky layers and delicious fillings such as fruit, cream cheese, or almond paste. ",
+        "image": "Images/danish.jpg",
+        "category": "pastries"
+    },
+     {
+        "id": 15,
+        "name": "Strudel",
+        "price": 1000,
+        "description": "Austrian pastry, strudel features its, flaky layers of dough around a sweet filling, such as apples. ",
+        "image": "Images/strudel.jpg",
+        "category": "pastries"
+    },
+    {
+        "id": 16,
+        "name": "Donut",
+        "price": 65,
+        "description": "  From classic glazed to frosted varieties, donuts never disappoint of all ages ",
+        "image": "Images/donut.jpg",
+        "category": "bakery"
+    },
+     {
+        "id": 17,
+        "name": "Bread",
+        "price": 45,
+        "description": "Nothing quite like the smell of a freshly baked bagel to whet customers appetites ",
+        "image": "Images/bread.jpg",
+        "category": "bakery"
+    },
+    {
+        "id": 18,
+        "name": "Cakes",
+        "price": 600,
+        "description": "Something that wouldn't look out of place on a special occasion like birthdays ",
+        "image": "Images/cake.jpg",
+        "category": "bakery"
+    },
+     {
+        "id": 19,
+        "name": "Lime & Blistered Peanut Coleslaw",
+        "price": 130,
+        "description": "This light, mayo-free recipe uses peanuts, tomatoes, and lime ",
+        "image": "Images/peanut.avif",
+        "category": "salads"
+    },
+     {
+        "id": 20,
+        "name": "Cucumber Salad",
+        "price": 150,
+        "description": "A refreshing chopped cucumber salad loaded with peanuts, spices, toasted coconut, and chiles. ",
+        "image": "Images/cucumber.avif",
+        "category": "salads"
+    },
+    {
+        "id": 21,
+        "name": "Good Shredded Salad",
+        "price": 100,
+        "description": "A vibrant mix of finely cut, crisp vegetables and often fruits, highlight their fresh flavors. ",
+        "image": "Images/shredded salad.avif",
+        "category": "salads"
     }
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 ]
