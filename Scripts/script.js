@@ -224,7 +224,7 @@ const changeQuantity = (product_id, type) => {
     addCartToHTML();
 };
 
-
+// Redirec to checkout page after clicking "Checkout" on cart
 function goToCheckOutPage(){
     if (cart.length > 0) {
         window.location.href = "CheckOut.html";
