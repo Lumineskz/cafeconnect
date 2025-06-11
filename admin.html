@@ -33,11 +33,72 @@
         </div>
     </header>
     <main class="admin-panel">
-        <h1>Customer Orders</h1>
-        <div class="orders-list" id="ordersList">
-            <!-- Orders will be rendered here by JavaScript -->
+        <div class="sidebar">
+            <h2>Admin Menu</h2>
+            <ul>
+                <li><a href="#manage-orders">Manage Orders</a></li>
+                <li><a href="#manage-menu">Manage Menu</a></li>
+                <li><a href="#view-reports">View Reports</a></li>
+            </ul>
         </div>
-        </main>
-        <script src="Scripts/script-admin.js"></script>
+        <div class="admin-section">
+        <div id="manage-orders">
+            <h2>Manage Orders</h2>
+            <p>Here you can view and manage customer orders.</p>
+            <!-- Order management content will be dynamically loaded here -->
+        </div>
+        <div id="manage-menu">
+            <h2>Manage Menu</h2>
+            <p>Here you can add, edit, or remove menu items.</p>
+            <form action="">
+                <label for="menuItem">Menu Item:</label>
+                <input type="text" id="menuItem" name="menuItem" required>
+                <label for="itemPrice">Price:</label>
+                <input type="number" id="itemPrice" name="itemPrice" required>
+                <label for="itemDescription">Description:</label>
+                <textarea id="itemDescription" name="itemDescription" required></textarea>
+                <label for="itemImage">Image URL:</label>
+                <input type="url" id="itemImage" name="itemImage" required>
+                <label for="itemCategory">Category:</label>
+                <select id="itemCategory" name="itemCategory" required>
+                    <option value="hot-beverages">Hot Beverages</option>
+                    <option value="cold-beverages">Cold beverages</option>
+                    <option value="pastries">Pastries</option>
+                    <option value="cookies">Cookies</option>
+                    <option value="bakery">Bakery</option>
+                    <option value="salads">Salads</option>
+                </select>
+                <button type="submit" class="add-item-btn">Add Item</button>
+            </form>
+            <!-- Removing items from existing menu-->
+            <h3>Remove Item from existing menu</h3>
+            <form action="">
+                <label for="removeItem">Select Item to Remove:</label>
+                <select id="itemCategory" name="itemCategory" required>
+                    <option value="hot-beverages">Hot Beverages</option>
+                    <option value="cold-beverages">Cold beverages</option>
+                    <option value="pastries">Pastries</option>
+                    <option value="cookies">Cookies</option>
+                    <option value="bakery">Bakery</option>
+                    <option value="salads">Salads</option>
+                </select>
+                <label for="removeItem">Item to Remove:</label>
+                <input type="text" id="removeItem" name="removeItem" required>
+                <label for="confirm">Confirm</label>
+                <input type="text" id="confirm" name="confirm" placeholder="Type 'REMOVE' to confirm" required>
+                <button type="submit">Remove Item</button>
+            </form>
+            <!-- Menu management content will be dynamically loaded here -->
+        </div>
+        <div id="view-reports">
+            <h2>View Reports</h2>
+            <p>Here you can view sales and customer reports.</p>
+            <!-- Reports content will be dynamically loaded here -->
+             
+        </div>
+    </div>
+    </main>
+    
+    <script src="Scripts/script-admin.js"></script>
 </body>
 </html>
