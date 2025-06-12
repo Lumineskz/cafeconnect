@@ -1,5 +1,3 @@
-// Contents of Scripts/checkout-script.js
-
 /* For navbar menu (hamburger) */
 const mobileNav = document.querySelector('.mobile-nav');
 const hamburgerMenu = document.querySelector('.hamburger-menu');
@@ -52,7 +50,7 @@ function displayOrderSummary(cartData, products) {
     // Says "your cart is empty if there is nothing in your current cart"
     if (cartData.length === 0) {
         orderSummaryDiv.innerHTML = '<p class="empty">Your cart is empty.</p>';
-        orderTotalDiv.innerHTML = '<p class="empty">Error</p>';
+        orderTotalDiv.innerHTML = '<p class="empty">Total Price: Error, Empty Cart</p>'; // You might want to display "Total: Rs. 0" instead of "Error" here
         return;
     }
 
@@ -86,23 +84,29 @@ function displayOrderSummary(cartData, products) {
     orderTotalDiv.innerHTML = `<b>Total: Rs. ${totalPrice}</b>`;
 }
 
-// Validation of the form, checks if form is filled and prevents form submission by default
-
+// Validation of the form, clears cart and redirects to thank-you.html upon successful submission
 function checkOutConfirmForm(event) {
-    event.preventDefault();
-    // Basic validation (can be expanded)
+    event.preventDefault(); // Prevent default form submission initially
+
+    // Basic validation
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const address = document.getElementById('address').value;
     const paymentMethod = document.getElementById('payment-method').value;
 
-    if (!name || !email || !address || !paymentMethod) {
-        alert("Please fill in all required fields.");
+    if (!name || !email || !address || !paymentMethod || paymentMethod === "Payment Method") {
+        alert("Please fill in all required fields and select a valid payment method.");
         return false;
     }
-    
-    return false;
+
+    // If validation passes, clear the cart and redirect
+    localStorage.removeItem('cart');
+
+    // Redirect to thank-you page
+    window.location.href = 'thank-you.html';
+    return false; // This is redundant after redirection, but harmless.
 }
+
 
 // Call loadCartToOrderSummary when the CheckOut.html page loads
 document.addEventListener('DOMContentLoaded', loadCartToOrderSummary);
