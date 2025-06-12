@@ -159,6 +159,24 @@ header .container {
         height: 100vh;
         margin-bottom: 10px;
     }
+    .order{
+        background-color: rgb(241, 241, 241);
+        padding: 15px;
+        width: 45%;
+        border: 1px solid lightgray;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .order button{
+        background-color: #493628;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+    }
     /* Manage Menu */
     #manage-menu{
         background-color: #f9f9f9;
