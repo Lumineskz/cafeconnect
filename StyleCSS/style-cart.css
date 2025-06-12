@@ -247,6 +247,22 @@ header .container {
     font-size: 20px;
     font-weight: bold;
 }
+.thank-you{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    margin-top: 20px;
+}
+.thank-you input{
+    background-color: #493628;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     .desktop-nav {
