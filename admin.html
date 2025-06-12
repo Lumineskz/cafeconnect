@@ -45,6 +45,18 @@
         <div id="manage-orders">
             <h2>Manage Orders</h2>
             <p>Here you can view and manage customer orders.</p>
+            <div class="order 1">
+                <h3>Order #12345</h3>
+                <p><strong>Customer:</strong> John Doe</p>
+                <p><strong>Items:</strong> Coffee, Pastry</p>
+                <p><strong>Total:</strong> $10.00</p>
+                <p><strong>Status:</strong> <select name="orderStatus" id="orderStatus">
+                    <option value="processing">Processing</option>
+                    <option value="shipped">Shipped</option>
+                    <option value="delivered">Delivered</option>
+                </select></p>
+                <button class="mark-complete-btn">Mark as Complete</button>
+            </div>
             <!-- Order management content will be dynamically loaded here -->
         </div>
         <div id="manage-menu">
