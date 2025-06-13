@@ -36,7 +36,7 @@
         "name": "Chocolate chip cookies",
         "price": 280,
         "description": "A cookie that featureing chips of chocolate as its main ingredient.",
-        "image": "Images/chocolate_chip.webp",
+        "image": "Images/Chocolate_chip.webp",
         "category": "cookies"
     },
     {
