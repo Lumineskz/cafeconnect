@@ -3,6 +3,15 @@
 *{
     box-sizing: border-box;
 }
+h2{
+    font-size: 1.2em;
+}
+h3{
+    font-size: 1.0em;
+}
+h1{
+    font-size: 1.4em;
+}
 body {
     font-family: 'Outfit', sans-serif;
     margin: 0;
@@ -183,7 +192,7 @@ header .container {
         padding: 20px;
         border-radius: 15px;
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        height: 100vh;
+        height: auto;
         margin-bottom: 10px;
     }
     #manage-menu form{
