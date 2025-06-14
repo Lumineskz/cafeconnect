@@ -18,7 +18,11 @@ addItemButton.addEventListener('click', (event) => {
     const itemImage = document.querySelector('#itemImage').value;
     const itemCategory = document.querySelector('#itemCategory').value;
 
-    // Here you can add your logic to add the item to the menu
+    // Validate inputs
+    if (!menuItem || !itemPrice || !itemDescription || !itemImage || !itemCategory) {
+        alert('Please fill in all fields.');
+        return;
+    }
 
     // Optionally, clear the form fields
     document.querySelector('#menuItem').value = '';
